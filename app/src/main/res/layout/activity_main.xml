@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationX="30dp"
+        android:translationY="50dp"></androidx.appcompat.widget.SearchView>
+    <ListView
+    android:id="@+id/list"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"></ListView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="231dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:text="@string/btn2"
+        android:backgroundTint="@color/orange"></Button>
+
+    <Button
+        android:id="@id/button"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/orange"
+        android:text="@string/btn"
+        android:translationX="125dp"
+        android:translationY="250dp"></Button>
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btn3"
+        android:translationX="121dp"
+        android:translationY="425dp"
+        android:id="@id/button"
+        android:backgroundTint="@color/orange"></Button>
+
+    <ImageButton
+        style="@style/Widget.AppCompat.ImageButton"
+        android:layout_width="32dp"
+        android:layout_height="34dp"
+        android:translationX="300dp"
+        android:translationY="65dp"
+        android:visibility="visible"></ImageButton>
+
+
+</FrameLayout>
