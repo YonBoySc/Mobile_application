@@ -10,12 +10,13 @@
         android:id="@+id/search"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:translationX="30dp"
+        android:translationX="40dp"
         android:translationY="50dp"></androidx.appcompat.widget.SearchView>
     <ListView
     android:id="@+id/list"
     android:layout_width="wrap_content"
-    android:layout_height="wrap_content"></ListView>
+    android:layout_height="wrap_content">
+    </ListView>
 
     <Button
         android:id="@+id/button"
@@ -27,28 +28,28 @@
 
     <Button
         android:id="@id/button"
-        android:layout_width="160dp"
+        android:layout_width="228dp"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:backgroundTint="@color/orange"
         android:text="@string/btn"
-        android:translationX="125dp"
-        android:translationY="250dp"></Button>
+        android:translationY="-80dp"></Button>
 
     <Button
-        android:layout_width="180dp"
-        android:layout_height="wrap_content"
-        android:text="@string/btn3"
-        android:translationX="121dp"
-        android:translationY="425dp"
         android:id="@id/button"
-        android:backgroundTint="@color/orange"></Button>
-
+        android:layout_width="231dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/orange"
+        android:text="@string/btn3"
+        android:translationY="80dp"></Button>
     <ImageButton
         style="@style/Widget.AppCompat.ImageButton"
-        android:layout_width="32dp"
-        android:layout_height="34dp"
-        android:translationX="300dp"
-        android:translationY="65dp"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@mipmap/ic_launcher_foreground"
+        android:translationX="290dp"
+        android:translationY="50dp"
         android:visibility="visible"></ImageButton>
 
 
