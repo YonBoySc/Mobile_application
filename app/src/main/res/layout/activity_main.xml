@@ -12,11 +12,6 @@
         android:layout_height="wrap_content"
         android:translationX="40dp"
         android:translationY="50dp"></androidx.appcompat.widget.SearchView>
-    <ListView
-    android:id="@+id/list"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content">
-    </ListView>
 
     <Button
         android:id="@+id/button"
@@ -48,9 +43,21 @@
         android:layout_width="48dp"
         android:layout_height="48dp"
         android:src="@mipmap/ic_launcher_foreground"
-        android:translationX="290dp"
+        android:translationX="300dp"
         android:translationY="50dp"
         android:visibility="visible"></ImageButton>
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></androidx.drawerlayout.widget.DrawerLayout>
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:translationY="60dp"
+        android:fitsSystemWindows="true"
+        app:menu="@menu/activity_main_drawer" />
+
 
 
 </FrameLayout>
