@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="PDD_content">
+        <item>Пересечение сплошной</item>
+        <item>Проезд на красный</item>
+        <item>Парковка в неположенном месте</item>
+        <item>Тонирование стекол</item>
+    </string-array>
+
+    <string-array name="DTP_content">
+        <item>Врезался в самокат</item>
+        <item>Врезался в велосипед</item>
+        <item>Врезался в машину</item>
+    </string-array>
+
+    <string-array name="important_content">
+        <item>Инструкция по общению с инспекторами ГИБДД</item>
+        <item>Горячие линии</item>
+    </string-array>
+</resources>

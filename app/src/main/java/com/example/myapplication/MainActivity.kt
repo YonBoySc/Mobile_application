@@ -1,7 +1,9 @@
 package com.example.myapplication
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import android.os.Bundle
+import android.view.View
 import android.widget.Button
 import android.widget.PopupMenu
 import android.widget.Toast
@@ -20,16 +22,20 @@ class MainActivity : AppCompatActivity() {
             popupMenu.menuInflater.inflate(menu.popup_menu,popupMenu.menu)
             popupMenu.setOnMenuItemClickListener(PopupMenu.OnMenuItemClickListener { item ->
                 when(item.itemId) {
-                    id.action_crick ->
+                    id.action_dict ->
                         Toast.makeText(this@MainActivity, "You Clicked : " + item.title, Toast.LENGTH_SHORT).show()
-                    id.action_ftbal ->
+                    id.action_convers ->
                         Toast.makeText(this@MainActivity, "You Clicked : " + item.title, Toast.LENGTH_SHORT).show()
-                    id.action_hockey ->
+                    id.action_contacts ->
                         Toast.makeText(this@MainActivity, "You Clicked : " + item.title, Toast.LENGTH_SHORT).show()
                 }
                 true
             })
             popupMenu.show()
         }
+    }
+    fun second_activity(view: View){
+        val second_activ=Intent(this,SecondActivity::class.java)
+        startActivity(second_activ)
     }
 }

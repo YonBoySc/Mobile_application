@@ -31,6 +31,7 @@
         android:translationY="-80dp"></Button>
 
     <Button
+        android:onClick="second_activity"
         android:id="@id/button"
         android:layout_width="231dp"
         android:layout_height="wrap_content"
@@ -39,16 +40,9 @@
         android:text="@string/btn3"
         android:translationY="80dp"></Button>
 
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="48dp"
-        android:layout_height="48dp"
-        android:src="@mipmap/ic_launcher_foreground"
-        android:translationX="300dp"
-        android:translationY="100dp"
-        android:visibility="visible"
-        app:icon="@mipmap/ic_launcher_foreground"></Button>
 
-    <include layout="@layout/content_main" />
+    <include
+        layout="@layout/content_layout"
+        android:foreground="@drawable/ic_launcher_background" />
 
 </FrameLayout>

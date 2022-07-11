@@ -3,20 +3,18 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:backgroundTint="#F3ECEC">
 
     <Button
         android:id="@+id/button1"
-        style="@style/Widget.AppCompat.ImageButton"
         android:layout_width="48dp"
         android:layout_height="48dp"
-        android:src="@mipmap/ic_launcher_foreground"
+        android:backgroundTint="@color/white"
+        android:foreground="@mipmap/ic_launcher_foreground"
         android:translationX="300dp"
         android:translationY="100dp"
-        android:visibility="visible"
-        app:icon="@mipmap/ic_launcher_foreground"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteX="296dp"
         tools:layout_editor_absoluteY="100dp"></Button>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

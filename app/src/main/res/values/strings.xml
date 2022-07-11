@@ -3,4 +3,7 @@
     <string name="btn">Личный транспорт</string>
     <string name="btn2">Кикшеринг</string>
     <string name="btn3">Срочные вопросы</string>
+    <string name="PDD">ПДД</string>
+    <string name="DTP">ДТП</string>
+    <string name="important_questions">Важное</string>
 </resources>
