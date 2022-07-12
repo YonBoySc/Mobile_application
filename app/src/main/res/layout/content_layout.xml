@@ -15,6 +15,7 @@
         android:translationX="300dp"
         android:translationY="100dp"
         tools:layout_editor_absoluteX="296dp"
-        tools:layout_editor_absoluteY="100dp"></Button>
+        tools:layout_editor_absoluteY="100dp"
+        tools:ignore="MissingConstraints"></Button>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

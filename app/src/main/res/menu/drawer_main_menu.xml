@@ -3,11 +3,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
     <group android:checkableBehavior="single">
-        <item android:title="@string/PDD"
+        <item
+            android:onClick="showPDD"
+            android:title="@string/PDD"
             android:id="@+id/id_PDD"/>
-        <item android:title="@string/DTP"
+        <item
+            android:onClick="showDTP"
+            android:title="@string/DTP"
             android:id="@+id/id_DTP"/>
-        <item android:title="@string/important_questions"
+        <item
+            android:onClick="showIM"
+            android:title="@string/important_questions"
             android:id="@+id/id_important_questions"/>
     </group>
 
